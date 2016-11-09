@@ -1,0 +1,7 @@
+
+public class Conta {
+
+	public int num;
+	public String nome;
+	public double saldo;
+}
