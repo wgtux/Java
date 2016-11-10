@@ -5,6 +5,14 @@ public class Conta {
 	public String nome;
 	private double saldo; //restringindo o acesse ao saldo
 	
+	public void abrir (int numero, String no, double s ){
+	s = ;
+	numero = ;
+	no = ;
+		
+	}
+
+	
 	public void depositar (double v){
 		saldo += v;
 	}
@@ -17,4 +25,6 @@ public class Conta {
 	public double getSaldo (){
 		return saldo;
 	}
+
+
 }
