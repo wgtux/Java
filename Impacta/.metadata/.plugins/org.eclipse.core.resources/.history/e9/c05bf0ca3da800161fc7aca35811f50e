@@ -5,10 +5,10 @@ public class Conta {
 	public String nome;
 	private double saldo; //restringindo o acesse ao saldo
 	
-	public void abrir (int n, String no, double s ){
-		num = n;
-		nome = no;
-		saldo = s;
+	public void abrir (int numero, String no, double s ){
+	s = ;
+	numero = ;
+	no = ;
 		
 	}
 

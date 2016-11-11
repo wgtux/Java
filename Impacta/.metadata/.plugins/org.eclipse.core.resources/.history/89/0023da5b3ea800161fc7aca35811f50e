@@ -31,8 +31,10 @@ public class TesteConta {
 				String name = ler.toString();
 				System.out.println("Qual o valor do deposito inicial: ");
 				double i = ler.nextDouble();
-				int cont = 20000;
-				c1.abrir(cont, name, i);
+				//int cont = 20000;
+				//c1.num = cont+=1;
+				c1.nome(name);
+				c1.depositar(i);
 				System.out.println("------------------");
 				System.out.println("Dados da Conta: ");
 				System.out.println("Nome do Correntita: " +c1.nome);
