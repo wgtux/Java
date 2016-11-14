@@ -28,9 +28,9 @@ public class TesteConta {
 			case 1:
 				System.out.println("------------------");
 				System.out.println("Digite seu nome: ");
-				String name = ler.next();
+				String name = ler.toString();
 				System.out.println("Qual o valor do deposito inicial: ");
-				double i = ler.nextDouble();
+				double i = ler.nextFloat();
 				int cont = 20000;
 				c1.abrir(cont, name, i);
 				System.out.println("------------------");
@@ -41,9 +41,10 @@ public class TesteConta {
 				break;
 				
 			case 2:
+				double v;
 				System.out.println("------------------");
 				System.out.println("Qual o valor do deposito R$ ");
-				double v = ler.nextDouble();
+				v = ler.nextFloat();
 				c1.depositar (v);
 				System.out.println("Seu novo saldo é de: " +c1.getSaldo());
 				break;
@@ -51,7 +52,7 @@ public class TesteConta {
 			case 3:
 				System.out.println("------------------");
 				System.out.println("Qual o valor do saque: ");
-				double s = ler.nextDouble();
+				double s = ler.nextFloat();
 				c1.retirar(s);
 				System.out.println("Seu novo saldo é de: " +c1.getSaldo());
 				break;

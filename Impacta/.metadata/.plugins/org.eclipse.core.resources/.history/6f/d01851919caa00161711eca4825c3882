@@ -28,7 +28,7 @@ public class TesteConta {
 			case 1:
 				System.out.println("------------------");
 				System.out.println("Digite seu nome: ");
-				String name = ler.next();
+				String name = ler.toString();
 				System.out.println("Qual o valor do deposito inicial: ");
 				double i = ler.nextDouble();
 				int cont = 20000;

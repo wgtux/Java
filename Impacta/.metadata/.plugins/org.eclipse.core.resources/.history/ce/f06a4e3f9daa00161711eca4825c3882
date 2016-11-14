@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ExHipotenusa {
 	
-	private static Scanner entrada;
+	/*private static Scanner entrada;*/
 
 	static double hipotenusa(double c1, double c2){
 		double t1 = Math.pow(c1,2);
@@ -13,14 +13,14 @@ public class ExHipotenusa {
 	}
 
 public static void main (String [] args){
-	entrada = new Scanner(System.in);
+	/*entrada = new Scanner(System.in);
 	double cat1, cat2;
 	System.out.println("### Calculo da Hipotenusa ###");
 	System.out.println("Digite o Primeiro Cateto: ");
-	cat1 = entrada.nextDouble();
+	cat1 = entrada.nextFloat();
 	System.out.println("Digite o Segundo Cateto: ");
-	cat2 = entrada.nextDouble(); 
-	double r = hipotenusa (cat1, cat2);
+	cat2 = entrada.nextFloat(); */
+	double r = hipotenusa (6.8, 3.2);
 	System.out.println("O valor da hipotenusa: " +r);
 	}
 }
