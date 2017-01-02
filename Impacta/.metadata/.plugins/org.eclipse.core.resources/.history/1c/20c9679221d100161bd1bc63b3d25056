@@ -1,0 +1,13 @@
+//Reajuste de Salario
+import java.util.Scanner;
+
+public class ExOnze {
+	
+	private static Scanner s;
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -13,7 +13,7 @@ public class ExOito {
 		double valor[] = new double[3];
 		
 		for(int i = 0; i < valor.length; i++){  
-		    System.out.print("Digite o preÃ§o do " +(i+1)+"Âº produto: ");  
+		    System.out.print("Digite o preço do " +(i+1)+"º produto: ");  
 		    valor[i] = ler.nextDouble(); 
 		}
 	

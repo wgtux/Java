@@ -14,12 +14,14 @@ public class ExQuatro {
 		System.out.println("Digite uma letra: "); 
 		String l = scanner.next();
 			
-		if(l == "a" ||l == "e"|| l == "i" || l == "o"||l == "u"){
-			System.out.println("VocÃª digitou uma vocal ");
+		if(l.equalsIgnoreCase("a") ||l.equalsIgnoreCase("e")||l.equalsIgnoreCase("i") || l.equalsIgnoreCase("o")||l.equalsIgnoreCase("u")){
+			System.out.println("Você digitou uma vocal ");
 		}
 		else{
-			System.out.println("VocÃª digitou uma consoante");
+			System.out.println("Você digitou uma consoante");
 		}
+		
+		
 	}
 
 }

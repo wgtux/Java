@@ -1,0 +1,39 @@
+//Reajuste de Salario
+import java.util.Scanner;
+
+public class ExOnze {
+	
+	private static Scanner s;
+
+	public static void main(String[] args) {
+		
+		double salarioAtual;
+		double novoSalario;
+		
+		System.out.println("Favor Digitar o salario do Colaborador: ");
+		salarioAtual = s.nextDouble();
+		
+		System.out.println("Calculando Reajuste...");
+		System.out.println("...");
+		
+		if (salarioAtual<= 280){
+			novoSalario = salarioAtual+(salarioAtual*0.2);
+		}
+		else if (salarioAtual > 280 && salarioAtual <= 700){
+			novoSalario = salarioAtual+(salarioAtual*0.15);
+		}
+		else if (salarioAtual > 700 && salarioAtual <= 1500){
+			novoSalario = salarioAtual+(salarioAtual*0.1);
+		}
+		else{
+			novoSalario = salarioAtual+(salarioAtual*0.05);
+		}
+	
+		
+					
+			
+		}
+
+	}
+
+}

@@ -14,11 +14,11 @@ public class ExTres {
 		System.out.println("Digite F para Feminino ou M par Masculino: "); 
 		String s = scanner.next();
 	
-		if(s == "F"){
-			System.out.println("VocÃª Ã© do sexo FEMININO ");
+		if(s.equalsIgnoreCase("f")){
+			System.out.println("Voce é do sexo FEMININO ");
 		}
-		else if (s == "M"){
-			System.out.println("VocÃª Ã© do sexo MASCULINO ");
+		else if (s.equalsIgnoreCase("m")){
+			System.out.println("Você é do sexo MASCULINO ");
 		}
 		else{
 			System.out.println("SEXO INVALIDO");
