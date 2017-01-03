@@ -1,6 +1,6 @@
-import java.util.Scanner;
-
 //DIAS DA SEMANA
+
+import java.util.Scanner;
 
 public class ExTreze {
 
