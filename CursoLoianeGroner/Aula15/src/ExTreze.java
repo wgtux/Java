@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class ExTreze {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		
 		System.out.println("Digite um numero correspondende ao dia da semana ");
 		System.out.println("Ex: 1-Domingo, 2-Segunda, 3-Terça, etc");
