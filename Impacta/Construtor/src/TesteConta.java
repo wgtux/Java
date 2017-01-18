@@ -30,6 +30,7 @@ public class TesteConta {
 				System.out.println(c.getDados());
 				break;
 			case 2:
+				System.out.println("Seu Saldo é de: R$ "+ Conta.);
 				break;
 			case 3:
 				break;

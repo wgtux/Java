@@ -4,8 +4,8 @@ public class Conta {
 	private String nome;
 	private double saldo;
 	private double deposito;
-	private double saquar;
-	
+	private double saque;
+	saldo =+ deposito;
 	
 	/*METODO CONSTRUTOR*/
 	public Conta (int n, String no, double d){
@@ -14,8 +14,7 @@ public class Conta {
 		deposito = d;
 		
 	}
-	
-		
+			
 		
 	/*METODOS GET AND SETTERS*/
 	public int getNumero() {
@@ -41,12 +40,12 @@ public class Conta {
 		this.deposito = deposito;
 	}
 
-	public double getSaquar() {
-		return saquar;
+	public double getSaque() {
+		return saque;
 	}
 
-	public void setSaquar(double saquar) {
-		this.saquar = saquar;
+	public void setSaque(double saque) {
+		this.saque = saque;
 	}
 	
 	public String getDados(){
