@@ -2,15 +2,18 @@
 public class Funcoes {
 
 	//Valor Absoluto
-	
-	
-	// Seno  
-	
-	
-	//Cosseno 
-	
-	
+	public void absoluto (double a){
+		double ab = Math.abs(a);
+		System.out.println("O valor absoluto de "+a+ " é: "+ab);
+	}
+		
 	//Maior e menor
+	public void maiorMenor(double m1, double m2){
+		double maior = Math.max(m1, m2);
+		double menor = Math.min(m1, m2);
+		System.out.println("O maior numero de "+m1 + "e "+m2+ "é: " +maior);
+		System.out.println("O menor numero de "+m1 + "e "+m2+ "é: " +menor);
+	}
 	
 	
 	//Potenciação

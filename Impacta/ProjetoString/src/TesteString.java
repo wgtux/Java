@@ -11,12 +11,22 @@ public class TesteString {
 		
 		//Criando String de forma correta sem ocupar mais espaço na memoria
 		
-		StringBuilder no = new StringBuilder("Weslen");
-		no.append(" Gomes");
-		no.append(" de Almeida");
+		StringBuilder no = new StringBuilder("Weslen")
+				.append(" Gomes")
+				.append(" de Almeida");
 		
-		System.out.println(nome);
+		System.out.println(no);
 
+		
+		//Deletando texto
+		
+		no.delete(0, 7);
+		System.out.println(no);
+		
+		//Inserindo Texto na posição desejada
+		
+		no.insert(0, "WGTUX ");
+		System.out.println(no);
 	}
 
 }
